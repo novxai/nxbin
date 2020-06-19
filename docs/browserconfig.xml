@@ -6,7 +6,7 @@
             <square150x150logo src="ms-icon-150x150.png"/>
             <square310x310logo src="ms-icon-310x310.png"/>
             <TileColor>
-                #1b4979
+                #333333
             </TileColor>
         </tile>
     </msapplication>

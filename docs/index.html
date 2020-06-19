@@ -24,19 +24,19 @@
     <link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
     <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
     <link rel="manifest" href="manifest.json">
-    <meta name="theme-color" content="#1b4979">
+    <meta name="theme-color" content="#333333">
     <link rel="shortcut icon" href="favicon.png">
     <!-- Add to homescreen for Chrome on Android -->
     <meta name="mobile-web-app-capable" content="yes">
     <link rel="icon" sizes="192x192" href="android-icon-192x192.png">
     <!-- Add to homescreen for Safari on iOS -->
     <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="#1b4979">
+    <meta name="apple-mobile-web-app-status-bar-style" content="#333333">
     <meta name="apple-mobile-web-app-title" content="nxbin">
     <link rel="apple-touch-icon-precomposed" href="apple-icon-precomposed.png">
     <!-- All the Microsoft things -->
     <meta name="msapplication-TileImage" content="ms-icon-144x144.png">
-    <meta name="msapplication-TileColor" content="#1b4979">
+    <meta name="msapplication-TileColor" content="#333333">
     <meta name="msapplication-square70x70logo" content="ms-icon-70x70.png">
     <meta name="msapplication-square150x150logo" content="ms-icon-150x150.png">
     <meta name="msapplication-square310x310logo" content="ms-icon-310x310.png">
@@ -57,14 +57,12 @@
             <h1 class="display-4">nxbin</h1>
             <p class="lead">Remote storage of staticly linked binaries and scripts</p>
             <hr class="my-4">
-            <p>Select a download, or view the entire repository source on Github</p>
             <a class="btn btn-primary btn-lg" href="https://github.com/novxai/nxbin" role="button">View on Github</a>
         </div>
     </div>
 
     <!-- Main Content Area -->
     <div class="container">
-
         <!-- Row 1 -->
         <div class="row">
             <div class="col-sm-6">
@@ -73,7 +71,7 @@
                     <div class="card-body">
                         <h5 class="card-title"><a href="https://github.com/ldn-softdev/jtc">jtc (v 1.74)</a></h5>
                         <p class="card-text">A cli tool to extract, manipulate and transform JSON</p>
-                        <br>
+                        <hr>
                         <p>Download for Linux x64:&nbsp;</p>
                         <div class="btn-group" role="group" aria-label="jtc-linux64">
                             <button type="button" class="btn btn-secondary"
@@ -85,9 +83,11 @@
                             <button type="button" class="btn btn-secondary"
                                 onclick=" window.open('download/jtc-linux64_1.74.zip','_blank')">zip</button>
                         </div>
+                        <hr>
+                        <p>Download for Windows x64:&nbsp;</p>
+                        <pre>(not available)</pre>
                     </div>
                 </div>
-                <p>&nbsp;</p>
             </div>
             <div class="col-sm-6">
                 <!-- Card 2 -->
@@ -95,7 +95,7 @@
                     <div class="card-body">
                         <h5 class="card-title"><a href="https://github.com/ldn-softdev/jtm">jtm (v 2.09)</a></h5>
                         <p class="card-text">A simple lossless HTML/XML to JSON converter</p>
-                        <br>
+                        <hr>
                         <p>Download for Linux x64:&nbsp;</p>
                         <div class="btn-group" role="group" aria-label="jtm-linux64">
                             <button type="button" class="btn btn-secondary"
@@ -107,11 +107,14 @@
                             <button type="button" class="btn btn-secondary"
                                 onclick=" window.open('download/jtm-linux64_2.09.zip','_blank')">zip</button>
                         </div>
+                        <hr>
+                        <p>Download for Windows x64:&nbsp;</p>
+                        <pre>(not available)</pre>
                     </div>
                 </div>
-                <p>&nbsp;</p>
             </div>
         </div>
+        <p>&nbsp;</p>
         <!-- Row 2 -->
         <div class="row">
             <div class="col-sm-6">
@@ -120,7 +123,7 @@
                     <div class="card-body">
                         <h5 class="card-title"><a href="https://github.com/stedolan/jq">jq (v 1.6)</a></h5>
                         <p class="card-text">A lightweight and flexible command-line JSON processor</p>
-                        <br>
+                        <hr>
                         <p>Download for Linux x64:&nbsp;</p>
                         <div class="btn-group" role="group" aria-label="jq-linux64">
                             <button type="button" class="btn btn-secondary"
@@ -132,7 +135,7 @@
                             <button type="button" class="btn btn-secondary"
                                 onclick=" window.open('download/jq-linux64_1.6.zip','_blank')">zip</button>
                         </div>
-                        <br>
+                        <hr>
                         <p>Download for Windows x64:&nbsp;</p>
                         <div class="btn-group" role="group" aria-label="jq-win64">
                             <button type="button" class="btn btn-secondary"
@@ -146,7 +149,6 @@
                         </div>
                     </div>
                 </div>
-                <p>&nbsp;</p>
             </div>
             <div class="col-sm-6">
                 <!-- Card 4 -->
@@ -154,7 +156,10 @@
                     <div class="card-body">
                         <h5 class="card-title"><a href="https://github.com/minoca/swiss">swiss (v 1.0)</a></h5>
                         <p class="card-text">Unix multitool for Windows and Minoca OS</p>
-                        <br>
+                        <hr>
+                        <p>Download for Linux x64:&nbsp;</p>
+                        <pre>(not available)</pre>
+                        <hr>
                         <p>Download for Windows x64:&nbsp;</p>
                         <div class="btn-group" role="group" aria-label="swiss-win64">
                             <button type="button" class="btn btn-secondary"
@@ -168,31 +173,35 @@
                         </div>
                     </div>
                 </div>
-                <p>&nbsp;</p>
             </div>
         </div>
+        <p>&nbsp;</p>
+        <!-- Row 3 -->
         <div class="row">
             <div class="col-sm-6">
                 <!-- Card 5 -->
                 <div class="card animated fadeInUp" style="width: 18rem;">
                     <div class="card-body">
-                        <h5 class="card-title"><a href="https://github.com/joewalnes/websocketd">websocketd (v 0.3.0)</a></h5>
+                        <h5 class="card-title"><a href="https://github.com/joewalnes/websocketd">websocketd (v
+                                0.3.0)</a></h5>
                         <p class="card-text">Full duplex messaging between web browsers and servers</p>
-                        <br>
+                        <hr>
                         <p>Download for Linux x64:&nbsp;</p>
                         <div class="btn-group" role="group" aria-label="websocketd-linux64">
                             <button type="button" class="btn btn-secondary"
                                 onclick=" window.open('download/websocketd-linux64_0.3.0','_blank')">raw</button>
                             <button type="button" class="btn btn-secondary"
-                            onclick=" window.open('download/websocketd-linux64_0.3.0.tar.xz','_blank')">tar.xz</button>
+                                onclick=" window.open('download/websocketd-linux64_0.3.0.tar.xz','_blank')">tar.xz</button>
                             <button type="button" class="btn btn-secondary"
-                            onclick=" window.open('download/websocketd-linux64_0.3.0.7z','_blank')">7z</button>
+                                onclick=" window.open('download/websocketd-linux64_0.3.0.7z','_blank')">7z</button>
                             <button type="button" class="btn btn-secondary"
-                            onclick=" window.open('download/websocketd-linux64_0.3.0.zip','_blank')">zip</button>
+                                onclick=" window.open('download/websocketd-linux64_0.3.0.zip','_blank')">zip</button>
                         </div>
+                        <hr>
+                        <p>Download for Windows x64:&nbsp;</p>
+                        <pre>(not available)</pre>
                     </div>
                 </div>
-                <p>&nbsp;</p>
             </div>
             <div class="col-sm-6">
                 <!-- Card 6 -->
@@ -204,21 +213,22 @@
                         <p>Download for Linux x64:&nbsp;</p>
                         <div class="btn-group" role="group" aria-label="websocketd-linux64">
                             <button type="button" class="btn btn-secondary"
-                            onclick=" window.open('download/xidel-linux64_0.9.8','_blank')">raw</button>
+                                onclick=" window.open('download/xidel-linux64_0.9.8','_blank')">raw</button>
                             <button type="button" class="btn btn-secondary"
-                            onclick=" window.open('download/xidel-linux64_0.9.8.tar.xz','_blank')">tar.xz</button>
+                                onclick=" window.open('download/xidel-linux64_0.9.8.tar.xz','_blank')">tar.xz</button>
                             <button type="button" class="btn btn-secondary"
-                            onclick=" window.open('download/xidel-linux64_0.9.8.7z','_blank')">7z</button>
+                                onclick=" window.open('download/xidel-linux64_0.9.8.7z','_blank')">7z</button>
                             <button type="button" class="btn btn-secondary"
-                            onclick=" window.open('download/xidel-linux64_0.9.8.zip','_blank')">zip</button>
-                                
+                                onclick=" window.open('download/xidel-linux64_0.9.8.zip','_blank')">zip</button>
                         </div>
+                        <hr>
+                        <p>Download for Windows x64:&nbsp;</p>
+                        <pre>(not available)</pre>
                     </div>
                 </div>
-                <p>&nbsp;</p>
-
             </div>
         </div>
+        <p>&nbsp;</p>
     </div>
 
     <!-- JS, Popper.js, and jQuery -->
