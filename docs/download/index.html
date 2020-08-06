@@ -5,17 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>404</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
+    <style>
+        body { background:black;color:white;text-align:center;}
+        h1 {font-size: 9em;}
+        h2 {font-size: 7em;}
+        #content {position: absolute;left: 50%;top: 50%;transform: translate(-50%, -50%);-ms-transform: translate(-50%, -50%);-webkit-transform: translate(-50%, -50%);}
+        .message {animation: bounceIn;animation-duration: 1.0s;}
+    </style>
 </head>
-<!-- Automatic redirection -->
 <body onload="goBack()">
-    <br>
-    <pre>&nbsp;¯\_(ツ)_/¯&nbsp;</pre>
-    <br>
-    <script>
-        function goBack() {
-            window.history.back();
-        }
-    </script>
+    <div id="content"><div class="message">
+            <h2><pre>&nbsp;&macr;&#92;&#95;&#40;&#12484;&#41;&#95;&#47;&macr;&nbsp;</pre></h2>
+            <h1><code>404</code></h1>
+    </div></div>
+    <script>function goBack() {setTimeout(function () {window.history.back();}, 2100);}</script>
 </body>
-
 </html>
