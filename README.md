@@ -6,4 +6,4 @@ Remote storage of staticly linked binaries and scripts
 
 View the downloads dashboard:
 
-(https://novxai.github.io/nxbin/)[novxai.github.io/nxbin.]
+[https://novxai.github.io/nxbin/](novxai.github.io/nxbin.)
