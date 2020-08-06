@@ -1,6 +1,6 @@
 # nxbin
 
-Remote storage of staticly linked binaries and scripts
+Remote storage of staticly linked binaries, scripts, and executables.
 
 <hr>
 
